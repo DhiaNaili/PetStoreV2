@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\PetStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F23FB2D4-627A-4398-8E5C-FD4C2ED85557}|PetStore.Api\\PetStore.Api.csproj|d:\\petstore\\petstore.api\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F23FB2D4-627A-4398-8E5C-FD4C2ED85557}|PetStore.Api\\PetStore.Api.csproj|solutionrelative:petstore.api\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F23FB2D4-627A-4398-8E5C-FD4C2ED85557}|PetStore.Api\\PetStore.Api.csproj|d:\\petstore\\petstore.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F23FB2D4-627A-4398-8E5C-FD4C2ED85557}|PetStore.Api\\PetStore.Api.csproj|solutionrelative:petstore.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4917653B-F155-4FA5-B0A7-43A1CCF94338}|PetStore.Identity\\PetStore.Identity.csproj|d:\\petstore\\petstore.identity\\migrations\\20250107025825_addusertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4917653B-F155-4FA5-B0A7-43A1CCF94338}|PetStore.Identity\\PetStore.Identity.csproj|solutionrelative:petstore.identity\\migrations\\20250107025825_addusertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4917653B-F155-4FA5-B0A7-43A1CCF94338}|PetStore.Identity\\PetStore.Identity.csproj|d:\\petstore\\petstore.identity\\petstore.identity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4917653B-F155-4FA5-B0A7-43A1CCF94338}|PetStore.Identity\\PetStore.Identity.csproj|solutionrelative:petstore.identity\\petstore.identity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F23FB2D4-627A-4398-8E5C-FD4C2ED85557}|PetStore.Api\\PetStore.Api.csproj|d:\\petstore\\petstore.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F23FB2D4-627A-4398-8E5C-FD4C2ED85557}|PetStore.Api\\PetStore.Api.csproj|solutionrelative:petstore.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E632C31-0798-401D-990C-9F3867D84E7A}|PetStore.Persistance\\PetStore.Persistance.csproj|d:\\petstore\\petstore.persistance\\persistanceservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E632C31-0798-401D-990C-9F3867D84E7A}|PetStore.Persistance\\PetStore.Persistance.csproj|d:\\petstore\\petstore.persistance\\petstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E632C31-0798-401D-990C-9F3867D84E7A}|PetStore.Persistance\\PetStore.Persistance.csproj|solutionrelative:petstore.persistance\\petstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F23FB2D4-627A-4398-8E5C-FD4C2ED85557}|PetStore.Api\\PetStore.Api.csproj|d:\\petstore\\petstore.api\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F23FB2D4-627A-4398-8E5C-FD4C2ED85557}|PetStore.Api\\PetStore.Api.csproj|solutionrelative:petstore.api\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F23FB2D4-627A-4398-8E5C-FD4C2ED85557}|PetStore.Api\\PetStore.Api.csproj|d:\\petstore\\petstore.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -313,11 +313,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 55,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "20250107025825_AddUserTables.cs",
               "DocumentMoniker": "D:\\PetStore\\PetStore.Identity\\Migrations\\20250107025825_AddUserTables.cs",
               "RelativeDocumentMoniker": "PetStore.Identity\\Migrations\\20250107025825_AddUserTables.cs",
@@ -330,21 +330,17 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\PetStore\\PetStore.Api\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "PetStore.Api\\Controllers\\OrderController.cs",
               "ToolTip": "D:\\PetStore\\PetStore.Api\\Controllers\\OrderController.cs",
               "RelativeToolTip": "PetStore.Api\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAARAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T02:43:20.53Z",
               "EditorCaption": ""
@@ -359,8 +355,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\OrderFeatures\\Handlers\\Commands\\DeleteOrderCommandHandler.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:40:46.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T02:40:46.639Z"
             },
             {
               "$type": "Document",
@@ -372,8 +367,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\OrderFeatures\\Requests\\Commands\\DeleteOrderCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:40:08.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T02:40:08.246Z"
             },
             {
               "$type": "Document",
@@ -385,8 +379,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\OrderFeatures\\Handlers\\Queries\\GetOrdersByStatusRequestHandler.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAIwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:33:27.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T02:33:27.714Z"
             },
             {
               "$type": "Document",
@@ -398,8 +391,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\OrderFeatures\\Requests\\Queries\\GetOrdersByStatusRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:31:14.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T02:31:14.517Z"
             },
             {
               "$type": "Document",
@@ -411,8 +403,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\OrderFeatures\\Handlers\\Queries\\GetOrderByIdRequestHandler.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAABsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:25:51.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T02:25:51.83Z"
             },
             {
               "$type": "Document",
@@ -424,8 +415,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\OrderFeatures\\Handlers\\Commands\\PlaceOrderCommandHandler.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:22:29.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T02:22:29.771Z"
             },
             {
               "$type": "Document",
@@ -437,8 +427,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\OrderFeatures\\Requests\\Queries\\GetOrderByIdRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:20:09.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T02:20:09.033Z"
             },
             {
               "$type": "Document",
@@ -450,8 +439,7 @@
               "RelativeToolTip": "PetStore.Persistance\\Repositories\\OrderRepository.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:05:48.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T02:05:48.74Z"
             },
             {
               "$type": "Document",
@@ -463,8 +451,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\OrderFeatures\\Requests\\Commands\\PlaceOrderCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T02:03:58.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T02:03:58.317Z"
             },
             {
               "$type": "Document",
@@ -476,8 +463,7 @@
               "RelativeToolTip": "PetStore.Application\\DTOs\\OrderDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T01:58:05.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T01:58:05.969Z"
             },
             {
               "$type": "Document",
@@ -489,8 +475,7 @@
               "RelativeToolTip": "PetStore.Application\\Contracts\\Persistence\\IOrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T01:57:03.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T01:57:03.06Z"
             },
             {
               "$type": "Document",
@@ -502,8 +487,7 @@
               "RelativeToolTip": "PetStore.Domain\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T01:56:19.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T01:56:19.527Z"
             },
             {
               "$type": "Document",
@@ -515,8 +499,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Handlers\\Commands\\UploadPetImageCommandHandler.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAQwDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T01:47:50.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T01:47:50.76Z"
             },
             {
               "$type": "Document",
@@ -528,8 +511,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Requests\\Commands\\UploadPetImageCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T01:46:47.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T01:46:47.921Z"
             },
             {
               "$type": "Document",
@@ -541,8 +523,7 @@
               "RelativeToolTip": "PetStore.Identity\\Migrations\\20250107004520_UpdateIdentitySchema.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T00:45:20.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T00:45:20.73Z"
             },
             {
               "$type": "Document",
@@ -554,12 +535,11 @@
               "RelativeToolTip": "PetStore.Identity\\Migrations\\20250107002743_AddUserTables.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T00:27:43.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T00:27:43.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PetStoreDbContextFactory.cs",
               "DocumentMoniker": "D:\\PetStore\\PetStore.Persistance\\PetStoreDbContextFactory.cs",
               "RelativeDocumentMoniker": "PetStore.Persistance\\PetStoreDbContextFactory.cs",
@@ -567,8 +547,7 @@
               "RelativeToolTip": "PetStore.Persistance\\PetStoreDbContextFactory.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T00:12:26.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T00:12:26.361Z"
             },
             {
               "$type": "Document",
@@ -580,8 +559,7 @@
               "RelativeToolTip": "PetStore.Api\\Controllers\\AccountController.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T00:00:52.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T00:00:52.643Z"
             },
             {
               "$type": "Document",
@@ -593,8 +571,7 @@
               "RelativeToolTip": "PetStore.Identity\\Services\\UserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:21:47.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T19:21:47.597Z"
             },
             {
               "$type": "Document",
@@ -606,8 +583,7 @@
               "RelativeToolTip": "PetStore.Application\\Contracts\\Constants\\CustomClaimTypes.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:16:39.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T19:16:39.384Z"
             },
             {
               "$type": "Document",
@@ -619,8 +595,7 @@
               "RelativeToolTip": "PetStore.Identity\\Services\\AuthService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:10:19.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T19:10:19.484Z"
             },
             {
               "$type": "Document",
@@ -632,8 +607,7 @@
               "RelativeToolTip": "PetStore.Application\\Contracts\\Identity\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:03:24.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T19:03:24.959Z"
             },
             {
               "$type": "Document",
@@ -645,8 +619,7 @@
               "RelativeToolTip": "PetStore.Application\\Models\\Identity\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:00:49.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T19:00:49.836Z"
             },
             {
               "$type": "Document",
@@ -658,8 +631,7 @@
               "RelativeToolTip": "PetStore.Identity\\PetStoreIdentityDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T18:55:19.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T18:55:19.208Z"
             },
             {
               "$type": "Document",
@@ -671,8 +643,7 @@
               "RelativeToolTip": "PetStore.Identity\\Models\\ApplicationUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T18:55:04.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T18:55:04.339Z"
             },
             {
               "$type": "Document",
@@ -684,8 +655,7 @@
               "RelativeToolTip": "PetStore.Identity\\IdentityServicesRegistration.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T18:49:22.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T18:49:22.646Z"
             },
             {
               "$type": "Document",
@@ -697,8 +667,7 @@
               "RelativeToolTip": "PetStore.Identity\\Configuration\\UserRoleConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T18:48:46.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T18:48:46.611Z"
             },
             {
               "$type": "Document",
@@ -710,21 +679,19 @@
               "RelativeToolTip": "PetStore.Identity\\Configuration\\UserConfiguration.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAQwBoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T18:48:38.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T18:48:38.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PetStore.Identity",
+              "DocumentIndex": 3,
+              "Title": "PetStore.Identity.csproj",
               "DocumentMoniker": "D:\\PetStore\\PetStore.Identity\\PetStore.Identity.csproj",
               "RelativeDocumentMoniker": "PetStore.Identity\\PetStore.Identity.csproj",
               "ToolTip": "D:\\PetStore\\PetStore.Identity\\PetStore.Identity.csproj",
               "RelativeToolTip": "PetStore.Identity\\PetStore.Identity.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-06T18:45:29.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T18:45:29.016Z"
             },
             {
               "$type": "Document",
@@ -736,8 +703,7 @@
               "RelativeToolTip": "PetStore.Identity\\Configuration\\RoleConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T18:45:35.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T18:45:35.399Z"
             },
             {
               "$type": "Document",
@@ -749,8 +715,7 @@
               "RelativeToolTip": "PetStore.Application\\Contracts\\Identity\\IAuthService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T16:49:15.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T16:49:15.743Z"
             },
             {
               "$type": "Document",
@@ -762,8 +727,7 @@
               "RelativeToolTip": "PetStore.Application\\PetStore.Application.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-06T16:48:44.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T16:48:44.122Z"
             },
             {
               "$type": "Document",
@@ -775,8 +739,7 @@
               "RelativeToolTip": "PetStore.Application\\Models\\Identity\\Registrationresponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T16:47:28.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T16:47:28.747Z"
             },
             {
               "$type": "Document",
@@ -788,8 +751,7 @@
               "RelativeToolTip": "PetStore.Application\\Models\\Identity\\RegistrationRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T16:44:17.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T16:44:17.797Z"
             },
             {
               "$type": "Document",
@@ -801,8 +763,7 @@
               "RelativeToolTip": "PetStore.Application\\Models\\Identity\\JwtSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T16:41:32.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T16:41:32.346Z"
             },
             {
               "$type": "Document",
@@ -814,8 +775,7 @@
               "RelativeToolTip": "PetStore.Application\\Models\\Identity\\AuthResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T16:39:56.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T16:39:56.987Z"
             },
             {
               "$type": "Document",
@@ -827,8 +787,7 @@
               "RelativeToolTip": "PetStore.Application\\Models\\Identity\\AuthRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T16:39:12.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T16:39:12.013Z"
             },
             {
               "$type": "Document",
@@ -840,8 +799,7 @@
               "RelativeToolTip": "PetStore.Persistance\\Migrations\\20250106163348_CreateInit.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T16:33:49.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T16:33:49.326Z"
             },
             {
               "$type": "Document",
@@ -864,8 +822,7 @@
               "RelativeToolTip": "PetStore.Persistance\\Configuration\\TagConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T16:25:06.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T16:25:06.416Z"
             },
             {
               "$type": "Document",
@@ -877,8 +834,7 @@
               "RelativeToolTip": "PetStore.Persistance\\PetStore.Persistance.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-06T15:48:14.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T15:48:14.511Z"
             },
             {
               "$type": "Document",
@@ -890,8 +846,7 @@
               "RelativeToolTip": "PetStore.Persistance\\Configuration\\CategoryConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T16:19:44.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T16:19:44.109Z"
             },
             {
               "$type": "Document",
@@ -903,12 +858,11 @@
               "RelativeToolTip": "PetStore.Domain\\Tag.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T15:23:46.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T15:23:46.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PetStoreDbContext.cs",
               "DocumentMoniker": "D:\\PetStore\\PetStore.Persistance\\PetStoreDbContext.cs",
               "RelativeDocumentMoniker": "PetStore.Persistance\\PetStoreDbContext.cs",
@@ -916,8 +870,7 @@
               "RelativeToolTip": "PetStore.Persistance\\PetStoreDbContext.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T15:21:23.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T15:21:23.043Z"
             },
             {
               "$type": "Document",
@@ -929,12 +882,11 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Handlers\\Queries\\GetPetListRequestHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:53:38.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:53:38.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ApplicationServicesRegistration.cs",
               "DocumentMoniker": "D:\\PetStore\\PetStore.Application\\ApplicationServicesRegistration.cs",
               "RelativeDocumentMoniker": "PetStore.Application\\ApplicationServicesRegistration.cs",
@@ -942,8 +894,7 @@
               "RelativeToolTip": "PetStore.Application\\ApplicationServicesRegistration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:57:06.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:57:06.177Z"
             },
             {
               "$type": "Document",
@@ -955,8 +906,7 @@
               "RelativeToolTip": "PetStore.Api\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAxwBIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-06T14:49:09.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:49:09.346Z"
             },
             {
               "$type": "Document",
@@ -968,8 +918,7 @@
               "RelativeToolTip": "PetStore.Api\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-06T14:48:50.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:48:50.446Z"
             },
             {
               "$type": "Document",
@@ -981,8 +930,7 @@
               "RelativeToolTip": "PetStore.Api\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-06T14:48:48.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:48:48.997Z"
             },
             {
               "$type": "Document",
@@ -992,8 +940,7 @@
               "ToolTip": "C:\\Users\\Dhia\\AppData\\Local\\Temp\\.vsdbgsrc\\f50ea901ea279162ab7cd165d9604756afa0b5d4d73516598969352c660dc4c6\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:47:52.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:47:52.861Z"
             },
             {
               "$type": "Document",
@@ -1005,12 +952,11 @@
               "RelativeToolTip": "PetStore.Api\\Startup.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAAADMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:45:04.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:45:04.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PetStore\\PetStore.Api\\Program.cs",
               "RelativeDocumentMoniker": "PetStore.Api\\Program.cs",
@@ -1018,25 +964,24 @@
               "RelativeToolTip": "PetStore.Api\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:43:26.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:43:26.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "PetController.cs",
               "DocumentMoniker": "D:\\PetStore\\PetStore.Api\\Controllers\\PetController.cs",
               "RelativeDocumentMoniker": "PetStore.Api\\Controllers\\PetController.cs",
               "ToolTip": "D:\\PetStore\\PetStore.Api\\Controllers\\PetController.cs",
               "RelativeToolTip": "PetStore.Api\\Controllers\\PetController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAgwEUAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T14:34:52.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PersistanceServicesRegistration.cs",
               "DocumentMoniker": "D:\\PetStore\\PetStore.Persistance\\PersistanceServicesRegistration.cs",
               "RelativeDocumentMoniker": "PetStore.Persistance\\PersistanceServicesRegistration.cs",
@@ -1044,8 +989,7 @@
               "RelativeToolTip": "PetStore.Persistance\\PersistanceServicesRegistration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:32:36.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:32:36.367Z"
             },
             {
               "$type": "Document",
@@ -1057,8 +1001,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Handlers\\Queries\\GetPetsByStatusRequestHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:23:19.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:23:19.687Z"
             },
             {
               "$type": "Document",
@@ -1070,8 +1013,7 @@
               "RelativeToolTip": "PetStore.Application\\Profiles\\MappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:19:21.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:19:21.052Z"
             },
             {
               "$type": "Document",
@@ -1083,8 +1025,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Handlers\\Commands\\DeletePetCommandHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:11:25.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:11:25.04Z"
             },
             {
               "$type": "Document",
@@ -1096,8 +1037,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Handlers\\Commands\\UpdatePetCommandHandler.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAiwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:08:31.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:08:31.812Z"
             },
             {
               "$type": "Document",
@@ -1109,8 +1049,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Handlers\\Commands\\CreatePetCommandHandler.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAiwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:04:53.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:04:53.611Z"
             },
             {
               "$type": "Document",
@@ -1122,8 +1061,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Handlers\\Queries\\GetPetByIdRequestHandler.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:49:15.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:49:15.146Z"
             },
             {
               "$type": "Document",
@@ -1135,8 +1073,7 @@
               "RelativeToolTip": "PetStore.Application\\DTOs\\TagDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:00:42.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:00:42.13Z"
             },
             {
               "$type": "Document",
@@ -1148,8 +1085,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Requests\\Queries\\GetPetsByStatusRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:59:19.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:59:19.037Z"
             },
             {
               "$type": "Document",
@@ -1161,8 +1097,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Requests\\Commands\\DeletePetCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:57:02.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:57:02.538Z"
             },
             {
               "$type": "Document",
@@ -1174,8 +1109,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Requests\\Commands\\UpdatePetCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:56:08.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:56:08.508Z"
             },
             {
               "$type": "Document",
@@ -1187,8 +1121,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Requests\\Commands\\CreatePetCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:55:02.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:55:02.679Z"
             },
             {
               "$type": "Document",
@@ -1200,8 +1133,7 @@
               "RelativeToolTip": "PetStore.Application\\DTOs\\CategoryDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:54:02.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:54:02.09Z"
             },
             {
               "$type": "Document",
@@ -1213,8 +1145,7 @@
               "RelativeToolTip": "PetStore.Domain\\Pet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:51:29.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:51:29.034Z"
             },
             {
               "$type": "Document",
@@ -1226,8 +1157,7 @@
               "RelativeToolTip": "PetStore.Application\\Contracts\\Persistence\\IGenericRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:49:30.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:49:30.566Z"
             },
             {
               "$type": "Document",
@@ -1239,8 +1169,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Requests\\Queries\\GetPetListRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:49:07.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:49:07.7Z"
             },
             {
               "$type": "Document",
@@ -1252,8 +1181,7 @@
               "RelativeToolTip": "PetStore.Application\\Features\\PetFeatures\\Requests\\Queries\\GetPetByIdRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:49:05.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:49:05.408Z"
             },
             {
               "$type": "Document",
@@ -1265,8 +1193,7 @@
               "RelativeToolTip": "PetStore.Application\\Contracts\\Persistence\\IPetRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:46:58.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:46:58.163Z"
             },
             {
               "$type": "Document",
@@ -1278,8 +1205,7 @@
               "RelativeToolTip": "PetStore.Persistance\\Repositories\\PetRepository.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:45:03.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:45:03.487Z"
             },
             {
               "$type": "Document",
@@ -1291,8 +1217,7 @@
               "RelativeToolTip": "PetStore.Persistance\\Repositories\\GenericRepository.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAAA4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:45:00.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:45:00.09Z"
             },
             {
               "$type": "Document",
@@ -1304,8 +1229,11 @@
               "RelativeToolTip": "PetStore.Application\\DTOs\\PetDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:43:57.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:43:57.551Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         },

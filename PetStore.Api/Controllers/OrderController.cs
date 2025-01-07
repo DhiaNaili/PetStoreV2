@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PetStore.Application.DTOs;
@@ -9,9 +10,10 @@ using PetStore.Application.Features.PetFeatures.Requests.Queries;
 using PetStore.Domain;
 
 namespace PetStore.Api.Controllers
-{
+{   
     [Route("Store/[controller]")]
     [ApiController]
+    [Authorize]
     public class OrderController : ControllerBase
     {
         private readonly IMediator _mediator;

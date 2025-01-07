@@ -17,3 +17,4 @@ D:\PetStore\PetStore.Identity\obj\Debug\net8.0\refint\PetStore.Identity.dll
 D:\PetStore\PetStore.Identity\obj\Debug\net8.0\PetStore.Identity.pdb
 D:\PetStore\PetStore.Identity\obj\Debug\net8.0\PetStore.Identity.genruntimeconfig.cache
 D:\PetStore\PetStore.Identity\obj\Debug\net8.0\ref\PetStore.Identity.dll
+D:\PetStore\PetStore.Identity\obj\Debug\net8.0\PetStore.Identity.sourcelink.json

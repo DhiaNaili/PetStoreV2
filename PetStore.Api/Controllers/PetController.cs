@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PetStore.Application.DTOs;
@@ -9,6 +10,7 @@ namespace PetStore.Api.Controllers
 {
      [Route("[controller]")]
      [ApiController]
+     [Authorize]
     public class PetController : Controller
     {
         private readonly IMediator _mediator;

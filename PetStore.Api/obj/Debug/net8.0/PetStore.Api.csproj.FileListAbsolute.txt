@@ -199,3 +199,4 @@ D:\PetStore\PetStore.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.d
 D:\PetStore\PetStore.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\PetStore\PetStore.Api\bin\Debug\net8.0\PetStore.Identity.dll
 D:\PetStore\PetStore.Api\bin\Debug\net8.0\PetStore.Identity.pdb
+D:\PetStore\PetStore.Api\obj\Debug\net8.0\PetStore.Api.sourcelink.json
