@@ -1,0 +1,15 @@
+D:\PetStore\PetStore.Application\bin\Debug\net8.0\PetStore.Application.deps.json
+D:\PetStore\PetStore.Application\bin\Debug\net8.0\PetStore.Application.dll
+D:\PetStore\PetStore.Application\bin\Debug\net8.0\PetStore.Application.pdb
+D:\PetStore\PetStore.Application\bin\Debug\net8.0\PetStore.Domain.dll
+D:\PetStore\PetStore.Application\bin\Debug\net8.0\PetStore.Domain.pdb
+D:\PetStore\PetStore.Application\obj\Debug\net8.0\PetStore.Application.csproj.AssemblyReference.cache
+D:\PetStore\PetStore.Application\obj\Debug\net8.0\PetStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\PetStore\PetStore.Application\obj\Debug\net8.0\PetStore.Application.AssemblyInfoInputs.cache
+D:\PetStore\PetStore.Application\obj\Debug\net8.0\PetStore.Application.AssemblyInfo.cs
+D:\PetStore\PetStore.Application\obj\Debug\net8.0\PetStore.Application.csproj.CoreCompileInputs.cache
+D:\PetStore\PetStore.Application\obj\Debug\net8.0\PetStore.A51A9D8F.Up2Date
+D:\PetStore\PetStore.Application\obj\Debug\net8.0\PetStore.Application.dll
+D:\PetStore\PetStore.Application\obj\Debug\net8.0\refint\PetStore.Application.dll
+D:\PetStore\PetStore.Application\obj\Debug\net8.0\PetStore.Application.pdb
+D:\PetStore\PetStore.Application\obj\Debug\net8.0\ref\PetStore.Application.dll

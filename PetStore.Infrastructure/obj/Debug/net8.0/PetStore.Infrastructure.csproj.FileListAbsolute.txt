@@ -1,0 +1,12 @@
+D:\PetStore\PetStore.Infrastructure\bin\Debug\net8.0\PetStore.Infrastructure.deps.json
+D:\PetStore\PetStore.Infrastructure\bin\Debug\net8.0\PetStore.Infrastructure.dll
+D:\PetStore\PetStore.Infrastructure\bin\Debug\net8.0\PetStore.Infrastructure.pdb
+D:\PetStore\PetStore.Infrastructure\obj\Debug\net8.0\PetStore.Infrastructure.csproj.AssemblyReference.cache
+D:\PetStore\PetStore.Infrastructure\obj\Debug\net8.0\PetStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\PetStore\PetStore.Infrastructure\obj\Debug\net8.0\PetStore.Infrastructure.AssemblyInfoInputs.cache
+D:\PetStore\PetStore.Infrastructure\obj\Debug\net8.0\PetStore.Infrastructure.AssemblyInfo.cs
+D:\PetStore\PetStore.Infrastructure\obj\Debug\net8.0\PetStore.Infrastructure.csproj.CoreCompileInputs.cache
+D:\PetStore\PetStore.Infrastructure\obj\Debug\net8.0\PetStore.Infrastructure.dll
+D:\PetStore\PetStore.Infrastructure\obj\Debug\net8.0\refint\PetStore.Infrastructure.dll
+D:\PetStore\PetStore.Infrastructure\obj\Debug\net8.0\PetStore.Infrastructure.pdb
+D:\PetStore\PetStore.Infrastructure\obj\Debug\net8.0\ref\PetStore.Infrastructure.dll
